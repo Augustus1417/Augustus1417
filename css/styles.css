@@ -1,0 +1,402 @@
+@import url('variables.css');
+body {
+	color: var(--Blue);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	background-color: #000113;
+    background-image: url("../images/stars.jpg");
+    background-size: cover;
+	height: 100vh;
+}
+p {
+	font-size: large;
+}
+h1 {
+	font-size:36px;
+}
+#profile, #tools-tech{
+    padding: 50px;
+}
+
+#tools-tech {
+	text-align: center;
+}
+#educ-bg, #sample-projects {
+	text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+	backdrop-filter: blur(5px);
+	border-radius: 20px;	
+	background: rgba(35, 43, 56, 0.2);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+}
+#profile {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+#introduction {
+    width: 60%;
+    margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+#introduction h1, #introduction p {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    #introduction {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #introduction {
+        width: 100%;
+    }
+}
+
+#profile-pic{
+	width: 350px;
+	border-radius: 50%;
+	padding: 0px;
+    overflow: hidden;
+    transform: perspective(1000px);
+    transition: transform 0.2s ease-out;
+}
+
+#profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}  
+
+#moon {
+	position:absolute;
+	top: 40%;
+	right: 20%;
+	z-index: -10;
+	width: 200px;
+    animation: moon-hover 5s infinite;
+}
+#mars {
+    position:absolute;
+    z-index: -10;
+    top: 20%;
+    left: 60%;
+    width: 200px;
+    animation: mars-hover 8s infinite;
+}
+
+@keyframes mars-hover {
+    0% {top: 20%;}
+    25% {top: 25%}
+    50% {top: 20%;}
+    75% {top: 25%;}
+    100% {top: 20%;}
+}
+
+@keyframes moon-hover {
+    0% {top: 40%;}
+    25% {top: 45%}
+    50% {top: 40%;}
+    75% {top: 45%;}
+    100% {top: 40%;}
+}
+
+#ufo {
+    position: absolute;
+    z-index: -10;
+    width: 160px;
+    animation: sideToSide 10s  infinite;
+}
+#satellite {
+    position: absolute;
+    z-index: -10;
+    width: 200px;
+    animation: zigzag 20s linear infinite, rotate 5s linear infinite;
+}
+
+
+@keyframes zigzag {
+    0% {
+        top: 200%;
+        left: 0;
+    }
+    25% {
+        top: 210%;
+        left: 35%;
+    }
+    50% {
+        top: 190%;
+        left: 70%;
+    }
+    75% {
+        top: 210%;
+        left: 35%;
+    }
+    100% {
+        top: 200%;
+        left: 0%;
+    }
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes sideToSide {
+    0% {
+        left: 0;
+        top: 110%;
+    }
+    25% {
+        left: 70%;
+        top: 150%;
+        transform: rotate(90deg);
+    }
+    50% {
+        left: 0%;
+        top: 110%;
+        transform: rotate(360deg);
+    }
+    75% {
+        left: 70%;
+        top: 90%;
+        transform: rotate(90deg);
+    }
+    100% {
+        left: 0%;
+        top: 110%;
+        transform: rotate(360deg);
+    }
+}
+
+
+#schools {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+
+}
+.lpu {
+	width: 250px;
+}
+
+.college {
+	display: flex;
+	padding: 20px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	border: var(--Mantle) 2px solid;
+	border-radius: 20px;
+}
+
+#lpuc {
+	width: 190px;
+}
+
+.logos {
+    width: 120px;
+    transition: transform 0.15s ease;
+}
+
+.logos:hover {
+    transform: scale(1.2);
+    animation: shake 0.6s ease;
+}
+
+.logos:active {
+    transform: scale(0.9);
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg) scale(1.2); }
+    25% { transform: rotate(-10deg) scale(1.2); }
+    50% { transform: rotate(10deg) scale(1.2); }
+    75% { transform: rotate(-10deg) scale(1.2); }
+    100% { transform: rotate(0deg) scale(1.2); }
+}
+
+#tech {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.856);
+    color: var(--Text);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
+    width: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+.logos:hover+ .tooltip, .logos:active + .tooltip  {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    #tech {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    #tech {
+        grid-template-columns: 1fr;
+    }
+}
+#sample-projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--Text);
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0 0 10px 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .description {
+    opacity: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 55px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 60px;
+    height: 60px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+#socials {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+a.links {
+    font-size: 40px;
+    color: var(--HoverBlue);
+    transition: all 0.15s ease;
+}
+
+a.links:hover {
+    transform: translateY(-10%);
+}
+
+#soc-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
