@@ -1,7 +1,7 @@
 # Hi there! 👋
 
 I'm a developer who enjoys working with Python, C#, and web technologies.  
-I build with React, explore mobile development with React Native
+I build with React but I also explore mobile development with React Native.
 
 🖥️ **Tech Stack:**  
 - **Languages:** Python, C#, Kotlin
