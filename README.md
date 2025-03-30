@@ -5,8 +5,7 @@ I build with React but I also explore mobile development with React Native.
 
 🖥️ **Tech Stack:**  
 - **Languages:** Python, C#, Kotlin
-- **Frontend:** React, React Native, JavaScript/TypeScript
-- **Other Tools:** Vim, Git  
+- **Frontend:** React, React Native, JavaScript/TypeScript 
 
 🛠️ **I also use:** Arch Linux & Neovim (btw)
 
