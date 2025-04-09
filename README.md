@@ -8,7 +8,7 @@ I build with React but I also dabble in mobile development with React Native.
 - **Frontend:** React, React Native
 - **Backend:** ExpressJS, FastAPI
 
-🛠️ **I also use:** Arch Linux & Neovim (btw)
+🛠️ I also use **Arch Linux** & **Neovim** (btw)
 
 🚀 Always learning, sometimes building.  
 Check out my repositories to see what I’m working on!  
