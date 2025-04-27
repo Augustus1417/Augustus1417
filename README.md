@@ -3,15 +3,6 @@
 I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of the Philippines University Cavite.
 
 ---
-## 📉 Stats:
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Augustus1417&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Augustus1417&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
-</div>
-
----
-
 ## 🖥️ Tech Stack:
 
 <div align="center">
@@ -39,5 +30,15 @@ I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of th
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="40" alt="vim logo"  />
 </div>
+
+---
+## 📉 Stats:
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Augustus1417&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Augustus1417&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph" />
+</div>
+
+
 
 ## 🛠️ I also use **Arch Linux** & **Neovim** (btw)
