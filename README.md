@@ -1,7 +1,5 @@
 # Hi, I'm Jed! 👋
 
-I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of the Philippines University Cavite.
-
 ---
 ## 🖥️ Tech Stack:
 
