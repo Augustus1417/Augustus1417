@@ -1,9 +1,9 @@
 # Hi, I'm Jed! 👋
 
-I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of the Philippines University Cavite
+I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of the Philippines University Cavite.
 
 ---
-### 📉 Stats:
+## 📉 Stats:
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Augustus1417&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph" />
@@ -12,7 +12,7 @@ I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of th
 
 ---
 
-### 🖥️ Tech Stack:
+## 🖥️ Tech Stack:
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
@@ -40,4 +40,4 @@ I'm a 2nd year Bachelor of Science in Computer Science student from Lyceum of th
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="40" alt="vim logo"  />
 </div>
 
-### 🛠️ I also use **Arch Linux** & **Neovim** (btw)
+## 🛠️ I also use **Arch Linux** & **Neovim** (btw)
