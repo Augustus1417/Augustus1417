@@ -38,5 +38,17 @@
 </div>
 
 
+---
+## ✅ Certificates:
+<div align="center">
+<a href="https://www.credly.com/badges/0ee28d74-be77-471b-b836-45c749e14d61/public_url">
+  <img src="https://images.credly.com/size/680x680/images/49a492cd-5f72-4c9d-aafa-06649e4853fb/MicrosoftTeams-image__5_.png" alt="Credly Badge" width="150">
+</a>
+
+  <a href="https://www.credly.com/badges/6909d1b8-e3dd-4065-9826-b5115cf1d129/public_url">
+  <img src="https://images.credly.com/size/680x680/images/3c4602d8-832e-4a24-b42d-00359ce746f7/ITS-Badges_Python_1200px.png" alt="Credly Badge" width="150">
+</a>
+</div>
+
 
 ## 🛠️ I also use **Arch Linux** & **Neovim** (btw)
